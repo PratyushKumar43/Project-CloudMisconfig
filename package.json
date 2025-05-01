@@ -1,29 +1,21 @@
 {
-  "name": "aws-scanner",
+  "name": "cloudmisscan",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [
-    "frontend",
-    "backend"
-  ],
-  "scripts": {
-    "dev:frontend": "npm run dev --workspace=frontend",
-    "dev:backend": "npm run dev --workspace=backend",
-    "build:frontend": "npm run build --workspace=frontend",
-    "build:backend": "npm run build --workspace=backend",
-    "start:frontend": "npm run start --workspace=frontend",
-    "start:backend": "npm run start --workspace=backend"
-  },
   "dependencies": {
-    "@radix-ui/react-alert-dialog": "^1.1.5",
-    "@radix-ui/react-dialog": "^1.1.5",
-    "@radix-ui/react-progress": "^1.1.1",
-    "@radix-ui/react-tabs": "^1.1.2",
-    "@tremor/react": "^3.18.7",
-    "@types/socket.io-client": "^1.4.36",
-    "socket.io-client": "^4.8.1"
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.15.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "recharts": "^2.7.2",
+    "date-fns": "^2.30.0"
   },
   "devDependencies": {
-    "supabase": "^2.9.6"
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "typescript": "^5.1.6"
   }
 }
